@@ -5,7 +5,8 @@ import Cursor from "./Cursor";
 import Img from "../assets/reni.png";
 import Img2 from "../assets/sendtruly.png";
 import Img3 from "../assets/heiler.png";
-import Img4 from "../assets/qiblog.png";
+import Img4 from "../assets/qlsport.png";
+import Img5 from "../assets/qiblog.png";
 
 import { InView, useInView } from "react-intersection-observer";
 
@@ -43,8 +44,16 @@ const KitchenW = () => {
     },
     {
       id: 4,
-      h1: "Qi's_Blog",
+      h1: "Quantum Leap Sports",
       img: Img4,
+      to: "https://qlsportsonline.com/",
+      stack: ["HTML", "Tailwind CSS", "React", "Axios", "PHP", "Typescript"],
+      text: "Designed and developed Quantum Leap Sports, a sports management platform, enabling players to create profiles, scouts to view them, and admins to manage blogs and registered players, with seamless backend integration using RESTful APIs via Axios and PHP.",
+    },
+    {
+      id: 5,
+      h1: "Qi's_Blog",
+      img: Img5,
       to: "https://qi-blog.vercel.app/",
 
       stack: ["Next js", "Tailwind", "Sanity io", "React", "Typescript"],
